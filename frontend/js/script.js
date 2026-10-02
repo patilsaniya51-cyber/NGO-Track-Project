@@ -158,7 +158,7 @@ if (donationForm) {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/api/donations",
+                "https://ngo-track-project.onrender.com/api/donations",
                 {
                     method: "POST",
                     headers: {
@@ -295,7 +295,7 @@ if (addBeneficiaryBtn) {
             };
 
             fetch(
-                "http://localhost:5000/api/beneficiaries",
+                "https://ngo-track-project.onrender.com/api/beneficiaries",
                 {
                     method: "POST",
                     headers: {
@@ -442,7 +442,7 @@ if (recordUtilizationBtn) {
             };
 
             fetch(
-                "http://localhost:5000/api/utilizations",
+                "https://ngo-track-project.onrender.com/api/utilizations",
                 {
                     method: "POST",
                     headers: {
